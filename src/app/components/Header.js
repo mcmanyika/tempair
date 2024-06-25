@@ -50,7 +50,7 @@ const Header = () => {
             rel="noopener noreferrer"
           >
             <button className="bg-customBlue text-white text-sm px-4 py-2 capitalize md:uppercase rounded flex items-center">
-              Request Quote <span className="ml-2">&rarr;</span>
+              Get Quote <span className="ml-2">&rarr;</span>
             </button>
           </a>
         </nav>
