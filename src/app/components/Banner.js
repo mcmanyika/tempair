@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="relative h-96 bg-cover bg-center flex items-center parallax" style={{ backgroundImage: "url('/images/7.jpeg')" }}>
       <div className="absolute inset-0 bg-black opacity-30"></div>
       <div className="relative max-w-7xl mx-auto px-4">
-        <div className="text-white text-5xl p-4 border">
+        <div className="text-white text-2xl md:text-5xl p-4 border">
           We offer same day service
         </div>
       </div>

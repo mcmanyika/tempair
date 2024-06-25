@@ -21,10 +21,10 @@ const Header = () => {
         </div>
         <nav className="space-x-4 flex items-center">
           <Link href="/about" passHref>
-            <span className="hidden sm:inline text-gray-900 hover:text-gray-700 cursor-pointer">About Us</span>
+            <span className="hidden sm:inline text-gray-900 hover:text-gray-700 cursor-pointer uppercase">About Us</span>
           </Link>
           <Link href="/services" passHref>
-            <span className="hidden sm:inline text-gray-900 hover:text-gray-700 cursor-pointer">Services</span>
+            <span className="hidden sm:inline text-gray-900 hover:text-gray-700 cursor-pointer uppercase">Services</span>
           </Link>
           <a
             href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`}
