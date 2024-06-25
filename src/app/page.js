@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <Layout>
       <Banner />
-      <Brands />
       <Services />
+      <Brands />
       <ImageCarousel />
     </Layout>
   );

@@ -46,9 +46,8 @@ const ImageGallery = () => {
   ];
 
   return (
-    <div className="w-full py-12 px-4 sm:px-6 lg:px-8">
-      <h2 className="text-3xl font-bold text-center mb-8">Our Gallery</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-1">
+    <div className="w-full py-12 px-4 sm:px-6 lg:px-8 mt-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-2">
         {images.map((image, index) => (
           <div key={index} className="relative w-full h-[300px]">
             <Image
@@ -57,7 +56,7 @@ const ImageGallery = () => {
               layout="fill"
               objectFit="cover"
               quality={100}
-              className="rounded-lg shadow-md"
+              className="rounded"
             />
           </div>
         ))}
