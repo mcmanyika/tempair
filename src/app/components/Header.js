@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow">
-      <div className="w-full md:max-w-7xl md:mx-auto md:py-6 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+      <div className="w-full md:max-w-7xl md:mx-auto py-6 md:px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         <div className="relative w-48 h-10">
           <Link href="/" passHref>
             <Image
