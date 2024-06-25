@@ -4,27 +4,11 @@ import Image from 'next/image';
 
 const ImageGallery = () => {
   const images = [
+    
+    
     {
-      src: '/images/6.jpeg',
-      alt: '',
-      width: 800,
-      height: 600,
-    },
-    {
-      src: '/images/12.png',
-      alt: 'Customised coldrooms',
-      width: 800,
-      height: 600,
-    },
-    {
-      src: '/images/14.png',
-      alt: 'Brick & Motor Meat cold rooms',
-      width: 800,
-      height: 600,
-    },
-    {
-      src: '/images/15.png',
-      alt: 'Abbatoir Drip rooms',
+      src: '/images/17.png',
+      alt: 'Movable blast freezers',
       width: 800,
       height: 600,
     },
@@ -35,14 +19,15 @@ const ImageGallery = () => {
       height: 600,
     },
     {
-      src: '/images/17.png',
-      alt: 'Movable blast freezers',
+      src: '/images/18.png',
+      alt: 'Crane movable cold rooms',
       width: 800,
       height: 600,
     },
+
     {
-      src: '/images/18.png',
-      alt: 'Crane movable cold rooms',
+      src: '/images/14.png',
+      alt: 'Brick & Motor Meat cold rooms',
       width: 800,
       height: 600,
     },
@@ -58,9 +43,28 @@ const ImageGallery = () => {
       width: 800,
       height: 600,
     },
+
+    {
+      src: '/images/15.png',
+      alt: 'Abbatoir Drip rooms',
+      width: 800,
+      height: 600,
+    },
     {
       src: '/images/21.png',
       alt: 'Industrial chillers maintenance',
+      width: 800,
+      height: 600,
+    },
+    {
+      src: '/images/6.jpeg',
+      alt: '',
+      width: 800,
+      height: 600,
+    },
+    {
+      src: '/images/12.png',
+      alt: 'Customised coldrooms',
       width: 800,
       height: 600,
     },
