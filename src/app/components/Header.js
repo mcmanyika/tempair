@@ -49,8 +49,8 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="bg-customBlue text-white px-4 py-2 rounded">
-              Request Quote
+            <button className="bg-customBlue text-white text-sm px-4 py-2 uppercase rounded flex items-center">
+              Request Quote <span className="ml-2">&rarr;</span>
             </button>
           </a>
         </nav>
