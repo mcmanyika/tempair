@@ -4,7 +4,7 @@ import ServiceItem from './ServiceItem';
 
 const servicesData = [
   {
-    title: "Procurement, sale, and supply of cold chain equipment",
+    title: "Cold chain equipment",
     description: "We provide top-notch equipment and spares for cold chain systems.",
     link: "/services/procurement"
   },
@@ -19,7 +19,7 @@ const servicesData = [
     link: "/services/refrigeration"
   },
   {
-    title: "Solar technologies in heating and cooling",
+    title: "Solar technologies",
     description: "Harness solar energy for efficient heating and cooling.",
     link: "/services/solar-technologies"
   },
@@ -38,7 +38,7 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className="max-w-7xl mx-auto mb-12">
+    <div className="max-w-6xl mx-auto mb-12" id='services'>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pt-16">
         {servicesData.map((service, index) => (
           <ServiceItem 
