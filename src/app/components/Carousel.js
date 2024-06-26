@@ -91,7 +91,7 @@ const ImageGallery = () => {
   };
 
   return (
-    <section id='about'>
+    <section id='about' className='mb-7'>
       <div className="w-full py-12 px-4 sm:px-6 lg:px-8 mt-5 relative">
         <button
           onClick={scrollLeft}

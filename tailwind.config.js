@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         customBlue: '#35a4dc',
+        callBlue: '#EBF2FA',
       },
     },
   },

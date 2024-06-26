@@ -4,6 +4,7 @@ import Brands from "./components/Brands";
 import Banner from "./components/Banner";
 import Services from './components/Services';
 import ImageCarousel from './components/Carousel';
+import CallToAction from "./components/CallToAction";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <Brands />
       <ImageCarousel />
+      <CallToAction />
     </Layout>
   );
 }
