@@ -38,7 +38,7 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className="max-w-6xl mx-auto mb-12" id='services'>
+    <div className="max-w-7xl mx-auto mb-12" id='services'>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pt-16">
         {servicesData.map((service, index) => (
           <ServiceItem 
