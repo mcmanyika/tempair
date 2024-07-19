@@ -1,7 +1,9 @@
-'use client'
+'use client';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const Header = () => {
   const whatsappNumber = "263773808398"; // Replace with your WhatsApp number in international format without '+' or spaces
@@ -17,7 +19,7 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow">
-      <div className="w-full md:max-w-7xl md:mx-auto py-6 md:px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+      <div className="w-full md:max-w-6xl md:mx-auto py-6 md:px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         <div className="relative w-52 h-20">
           <Link href="/" passHref>
             <Image
@@ -44,7 +46,7 @@ const Header = () => {
           >
             Services
           </a>
-          <a
+          {/* <a
             href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -52,6 +54,14 @@ const Header = () => {
             <button className="bg-customBlue text-white text-sm px-4 py-2 capitalize md:uppercase rounded flex items-center">
               Get Quote <span className="ml-2">&rarr;</span>
             </button>
+          </a> */}
+          <a
+            href="https://www.facebook.com/profile.php?id=61560427566853&mibextid=ZbWKwL" // Replace with your Facebook page URL
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-900 hover:text-gray-700 ml-4"
+          >
+            <FontAwesomeIcon icon={faFacebook} style={{ fontSize: '2em', color: '#35a4dc' }} />
           </a>
         </nav>
       </div>
